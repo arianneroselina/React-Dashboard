@@ -985,7 +985,7 @@ export const customersData = [
     Status: 'Cancel',
     CustomerImage:
       avatar2,
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     Weeks: '34',
     Budget: '$16.5k',
     Location: 'USA',
@@ -1055,7 +1055,7 @@ export const customersData = [
     Status: 'Cancel',
     CustomerImage:
       avatar2,
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     Weeks: '34',
     Budget: '$16.5k',
     Location: 'USA',
@@ -1125,7 +1125,7 @@ export const customersData = [
     Status: 'Cancel',
     CustomerImage:
       avatar2,
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     Weeks: '34',
     Budget: '$16.5k',
     Location: 'USA',
@@ -1195,7 +1195,7 @@ export const customersData = [
     Status: 'Cancel',
     CustomerImage:
       avatar2,
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     Weeks: '34',
     Budget: '$16.5k',
     Location: 'USA',
@@ -1265,7 +1265,7 @@ export const customersData = [
     Status: 'Cancel',
     CustomerImage:
       avatar2,
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     Weeks: '34',
     Budget: '$16.5k',
     Location: 'USA',
@@ -1335,7 +1335,7 @@ export const customersData = [
     Status: 'Cancel',
     CustomerImage:
       avatar2,
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     Weeks: '34',
     Budget: '$16.5k',
     Location: 'USA',
@@ -1405,7 +1405,7 @@ export const customersData = [
     Status: 'Cancel',
     CustomerImage:
       avatar2,
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     Weeks: '34',
     Budget: '$16.5k',
     Location: 'USA',
@@ -1473,7 +1473,7 @@ export const customersData = [
     Status: 'Cancel',
     CustomerImage:
       avatar2,
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     Weeks: '34',
     Budget: '$16.5k',
     Location: 'USA',
@@ -2174,7 +2174,7 @@ export const ordersData = [
     OrderItems: 'Healthcare Erbology',
     Location: 'Spain',
     Status: 'rejected',
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     ProductImage:
     product1,
   },
@@ -2318,7 +2318,7 @@ export const ordersData = [
     OrderItems: 'Healthcare Erbology',
     Location: 'Spain',
     Status: 'rejected',
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     ProductImage:
       product1,
   },
@@ -2462,7 +2462,7 @@ export const ordersData = [
     OrderItems: 'Healthcare Erbology',
     Location: 'Spain',
     Status: 'rejected',
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     ProductImage:
       product1,
   },
@@ -2606,7 +2606,7 @@ export const ordersData = [
     OrderItems: 'Healthcare Erbology',
     Location: 'Spain',
     Status: 'rejected',
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     ProductImage:
       product1,
   },
@@ -2750,7 +2750,7 @@ export const ordersData = [
     OrderItems: 'Healthcare Erbology',
     Location: 'Spain',
     Status: 'rejected',
-    StatusBg: 'red',
+    StatusBg: '#db2c53',
     ProductImage:
       product1,
   },
@@ -3083,11 +3083,11 @@ export const dropdownData = [
   },
 ];
 export const SparklineAreaData = [
-  { x: 1, yval: 2 },
-  { x: 2, yval: 6 },
-  { x: 3, yval: 8 },
-  { x: 4, yval: 5 },
-  { x: 5, yval: 10 },
+  { x: 1, y: 2 },
+  { x: 2, y: 6 },
+  { x: 3, y: 8 },
+  { x: 4, y: 5 },
+  { x: 5, y: 10 },
 
 ];
 
@@ -3182,7 +3182,7 @@ export const stackedCustomSeries = [
     yName: 'y',
     name: 'Budget',
     type: 'StackingColumn',
-    background: 'blue',
+    background: '#468ea1',
 
   },
 
@@ -3191,7 +3191,7 @@ export const stackedCustomSeries = [
     yName: 'y',
     name: 'Expense',
     type: 'StackingColumn',
-    background: 'red',
+    background: '#db2c53',
 
   },
 

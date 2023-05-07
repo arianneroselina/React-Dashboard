@@ -46,7 +46,7 @@ const Navbar = () => {
       <NavButton 
         title='Menu' 
         customFunc={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)} 
-        color='blue' 
+        color='#468ea1' 
         icon={ <AiOutlineMenu /> }
       />
 
@@ -54,21 +54,21 @@ const Navbar = () => {
         <NavButton 
           title='Cart' 
           customFunc={() => handleClick('cart')} 
-          color='blue' 
+          color='#468ea1' 
           icon={ <FiShoppingCart /> }
         />
         <NavButton 
           title='Chat' 
           dotColor='#03C9D7'
           customFunc={() => handleClick('chat')} 
-          color='blue' 
+          color='#468ea1' 
           icon={ <BsChatLeft /> }
         />
         <NavButton 
           title='Notifications' 
           dotColor='#03C9D7'
           customFunc={() => handleClick('notification')} 
-          color='blue' 
+          color='#468ea1' 
           icon={ <RiNotification3Line /> }
         />
         <TooltipComponent content='Profile' position='BottomCenter'>
