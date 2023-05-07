@@ -340,13 +340,13 @@ export const rangeColorMapping = [
 
 ];
 
-export const ColorMappingPrimaryXAxis = {
+export const colorMappingPrimaryXAxis = {
   valueType: 'Category',
   majorGridLines: { width: 0 },
   title: 'Months',
 };
 
-export const ColorMappingPrimaryYAxis = {
+export const colorMappingPrimaryYAxis = {
   lineStyle: { width: 0 },
   majorTickLines: { width: 0 },
   minorTickLines: { width: 0 },
@@ -354,7 +354,7 @@ export const ColorMappingPrimaryYAxis = {
   title: 'Temperature',
 };
 
-export const FinancialPrimaryXAxis = {
+export const financialPrimaryXAxis = {
   valueType: 'DateTime',
   minimum: new Date('2016, 12, 31'),
   maximum: new Date('2017, 9, 30'),
@@ -362,7 +362,7 @@ export const FinancialPrimaryXAxis = {
   majorGridLines: { width: 0 },
 };
 
-export const FinancialPrimaryYAxis = {
+export const financialPrimaryYAxis = {
   title: 'Price',
   minimum: 100,
   maximum: 180,
@@ -371,7 +371,7 @@ export const FinancialPrimaryYAxis = {
   majorTickLines: { width: 0 },
 };
 
-export const LinePrimaryXAxis = {
+export const linePrimaryXAxis = {
   valueType: 'DateTime',
   labelFormat: 'y',
   intervalType: 'Years',
@@ -380,7 +380,7 @@ export const LinePrimaryXAxis = {
   background: 'white',
 };
 
-export const LinePrimaryYAxis = {
+export const linePrimaryYAxis = {
   labelFormat: '{value}%',
   rangePadding: 'None',
   minimum: 0,
